@@ -7,8 +7,11 @@ class Prestito:
         self.id_strumento = id_strumento
         self.cognome_allievo = cognome_allievo
 
+
     def __str__(self):
         return f"{self.codice}: strumento {self.id_strumento} in prestito a {self.cognome_allievo} dal {self.data}"
 
     def __repr__(self):
         return f"{self.codice}: strumento {self.id_strumento} in prestito a {self.cognome_allievo} dal {self.data}"
+
+

@@ -18,3 +18,4 @@ class Strumento:
         stato = "Disponibile" if self.disponibile else "In prestito"
         return (f"{self.codice}: {self.tipo} {self.marca} (acquistato nel {self.anno_acquisto}) "
                 f"- valore {self.valore} euro - {stato}")
+
